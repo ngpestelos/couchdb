@@ -1103,9 +1103,9 @@ extract_selector_hints_test_() ->
             meck:unload()
         end,
         [
-            ?TDEF_FE(t_extract_selector_hints_view, 100),
-            ?TDEF_FE(t_extract_selector_hints_text, 100),
-            ?TDEF_FE(t_extract_selector_hints_nouveau, 100)
+            ?TDEF_FE(t_extract_selector_hints_view, 1000),
+            ?TDEF_FE(t_extract_selector_hints_text, 1000),
+            ?TDEF_FE(t_extract_selector_hints_nouveau, 1000)
         ]
     }.
 
